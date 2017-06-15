@@ -16,6 +16,7 @@ export default class root extends Component {
 
   render() {
     return (
+      /*
       <Navigator
         initialRoute={{ name: 'TestNavFirst', component: TestNavFirst }}
         configureScene={(route) => {
@@ -28,7 +29,8 @@ export default class root extends Component {
         }
       }
       />
-      /*
+      */
+
       <View style = {{flex : 1,backgroundColor : '#F5FCFF'}}>
           <Navigator
             initialRoute = {{name: 'TabBar',component : TabBar}}
@@ -52,7 +54,7 @@ export default class root extends Component {
 
 
       </View>
-      */
+
     );
   }
 }
